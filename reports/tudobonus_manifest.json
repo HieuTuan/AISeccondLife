@@ -1,0 +1,598 @@
+{
+  "dataset_audit_meta": {
+    "project": "secondlife-ai-pricing",
+    "target_market": "Vietnam (VND)",
+    "audit_timestamp": "2026-10-13T20:21:12.848703",
+    "auditor_role": "Senior Machine Learning Engineer & Data Engineer"
+  },
+  "repository_inspection": {
+    "repo_id": "TudoBonus/tudobonus",
+    "sha": "f6c6c66d7b28b15716b6b8b1d5a7b01c27cd390b",
+    "private": false,
+    "license": "cc-by-4.0",
+    "tags": [
+      "license:cc-by-4.0",
+      "region:us"
+    ],
+    "description": "\n\t\n\t\t\n\t\n\t\n\t\tTudoBonus Dataset\n\t\n\n\n\t\n\t\t\n\t\n\t\n\t\t⚠️ Note on this Release\n\t\n\nThis is a sample release of the TudoBonus dataset, made available \nfor review purposes in the context of a submission to \nNeurIPS 2026 (Dataset and Benchmark Track). \nThe full dataset will be released upon paper acceptance.\nThe current release includes:\n\n✅ metadata.csv — full metadata file with all annotated attributes\n✅ A representative sample of images organized by interaction_id\n⏳ Full image set — to be released upon… See the full description on the dataset page: https://huggingface.co/datasets/TudoBonus/tudobonus.",
+    "citation": null,
+    "csv_path": "metadata.csv",
+    "csv_size_bytes": 57293330,
+    "csv_size_mb": 54.639177322387695,
+    "total_files_count": 14160,
+    "total_image_count": 14154,
+    "total_top_level_dirs": 3171,
+    "sample_top_dirs": [
+      ".cache",
+      "3353496",
+      "3353497",
+      "3353499",
+      "3353500",
+      "3353501",
+      "3353502",
+      "3353503",
+      "3353505",
+      "3353507"
+    ]
+  },
+  "sample_image_verification": {
+    "accessible": true,
+    "repo_path": "3353496/1656531920.jpg",
+    "local_cached_path": "C:\\Users\\hieu.tuanz\\.cache\\huggingface\\hub\\datasets--TudoBonus--tudobonus\\snapshots\\f6c6c66d7b28b15716b6b8b1d5a7b01c27cd390b\\3353496\\1656531920.jpg",
+    "file_size_bytes": 967898,
+    "file_size_kb": 945.212890625,
+    "format": "JPEG",
+    "mode": "RGB",
+    "dimensions": {
+      "width": 2248,
+      "height": 4000
+    }
+  },
+  "interaction_sample_audit": {
+    "target_interaction_id": 3354718,
+    "matching_records_count": 5,
+    "appliance_attributes": {
+      "sku": "CM020BFANA",
+      "product_type": "Microwave",
+      "brand": "CONSUL",
+      "color": "Gray",
+      "voltage": "127V",
+      "quality_label": "Very Good",
+      "original_value_brl": 699.0,
+      "dimensions": "26,4CM x 45,5CM x 35,3CM",
+      "weight": "10,5KG",
+      "description_pt": "MICRO-ONDAS CONSUL 20L  - CINZA"
+    },
+    "views": [
+      {
+        "view": 0,
+        "timestamp": 1656948610,
+        "path": "3354718/1656948610.jpg",
+        "description_en": "A black microwave oven sitting on top of a table.",
+        "bounding_box": "[97, 14, 188, 214]",
+        "image_properties": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "dimensions": {
+            "width": 3000,
+            "height": 4000
+          },
+          "file_size_kb": 802.02,
+          "local_file": "data\\raw\\samples\\3354718\\1656948610.jpg"
+        }
+      },
+      {
+        "view": 4,
+        "timestamp": 1656948621,
+        "path": "3354718/1656948621.jpg",
+        "description_en": "A silver microwave oven sitting on top of a table.",
+        "bounding_box": "[79, 21, 197, 216]",
+        "image_properties": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "dimensions": {
+            "width": 3000,
+            "height": 4000
+          },
+          "file_size_kb": 907.6,
+          "local_file": "data\\raw\\samples\\3354718\\1656948621.jpg"
+        }
+      },
+      {
+        "view": 2,
+        "timestamp": 1656948632,
+        "path": "3354718/1656948632.jpg",
+        "description_en": "A microwave oven sitting on top of a table.",
+        "bounding_box": "[86, 18, 193, 191]",
+        "image_properties": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "dimensions": {
+            "width": 3000,
+            "height": 4000
+          },
+          "file_size_kb": 961.97,
+          "local_file": "data\\raw\\samples\\3354718\\1656948632.jpg"
+        }
+      },
+      {
+        "view": 3,
+        "timestamp": 1656948645,
+        "path": "3354718/1656948645.jpg",
+        "description_en": "A microwave oven with a remote control next to it.",
+        "bounding_box": "[33, 0, 213, 221]",
+        "image_properties": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "dimensions": {
+            "width": 3000,
+            "height": 4000
+          },
+          "file_size_kb": 1199.21,
+          "local_file": "data\\raw\\samples\\3354718\\1656948645.jpg"
+        }
+      },
+      {
+        "view": 1,
+        "timestamp": 1656948656,
+        "path": "3354718/1656948656.jpg",
+        "description_en": "A microwave oven sitting on top of a white table.",
+        "bounding_box": "[99, 29, 177, 192]",
+        "image_properties": {
+          "format": "JPEG",
+          "mode": "RGB",
+          "dimensions": {
+            "width": 3000,
+            "height": 4000
+          },
+          "file_size_kb": 788.75,
+          "local_file": "data\\raw\\samples\\3354718\\1656948656.jpg"
+        }
+      }
+    ],
+    "linkage_verdict": "Tất cả 5 bản ghi khớp chính xác 1-1 với 5 file ảnh trong thư mục 3354718/. Cấu trúc đường dẫn path = <interaction_id>/<timestamp>.jpg. Mỗi bản ghi tương ứng với một góc nhìn (view 0..4) của cùng một lò vi sóng Consul CM020BFANA."
+  },
+  "exploratory_data_analysis": {
+    "total_records": 109235,
+    "total_columns": 22,
+    "column_types": {
+      "interaction_id": "int64",
+      "file_path": "str",
+      "sku": "str",
+      "department": "str",
+      "product_type": "str",
+      "brand": "str",
+      "color": "str",
+      "voltage": "str",
+      "height": "str",
+      "width": "str",
+      "depth": "str",
+      "weight": "str",
+      "description_en": "str",
+      "bounding_box": "str",
+      "description_pt": "str",
+      "quality_label": "str",
+      "short_description": "str",
+      "created_at": "str",
+      "original_value": "float64",
+      "timestamp": "int64",
+      "path": "str",
+      "view": "int64"
+    },
+    "missing_values": {
+      "counts": {
+        "interaction_id": 0,
+        "file_path": 0,
+        "sku": 0,
+        "department": 0,
+        "product_type": 0,
+        "brand": 0,
+        "color": 695,
+        "voltage": 0,
+        "height": 0,
+        "width": 0,
+        "depth": 0,
+        "weight": 0,
+        "description_en": 0,
+        "bounding_box": 0,
+        "description_pt": 0,
+        "quality_label": 0,
+        "short_description": 0,
+        "created_at": 0,
+        "original_value": 0,
+        "timestamp": 0,
+        "path": 0,
+        "view": 0
+      },
+      "percentages": {
+        "interaction_id": 0.0,
+        "file_path": 0.0,
+        "sku": 0.0,
+        "department": 0.0,
+        "product_type": 0.0,
+        "brand": 0.0,
+        "color": 0.6362,
+        "voltage": 0.0,
+        "height": 0.0,
+        "width": 0.0,
+        "depth": 0.0,
+        "weight": 0.0,
+        "description_en": 0.0,
+        "bounding_box": 0.0,
+        "description_pt": 0.0,
+        "quality_label": 0.0,
+        "short_description": 0.0,
+        "created_at": 0.0,
+        "original_value": 0.0,
+        "timestamp": 0.0,
+        "path": 0.0,
+        "view": 0.0
+      },
+      "special_uninformative": {
+        "color_null_or_blank": 695,
+        "weight_dash_placeholder": 15206,
+        "weight_zero_placeholder": 9625,
+        "original_value_is_zero": 308
+      }
+    },
+    "duplicate_records": {
+      "full_rows": 0,
+      "by_path": 0,
+      "by_file_path": 0
+    },
+    "unique_identifiers": {
+      "interaction_id_count": 23978,
+      "sku_count": 334
+    },
+    "distributions": {
+      "product_type": {
+        "Refrigerator": 36195,
+        "Stove": 23851,
+        "Washing Machine": 23800,
+        "Dishwasher": 6821,
+        "Microwave": 5985,
+        "Water Purifier": 2253,
+        "Water Dispenser": 2126,
+        "Freezer": 2068,
+        "Washer Dryer": 1737,
+        "Wine Cooler": 1365,
+        "Stand Mixer": 695,
+        "Beer Fridge": 664,
+        "Dryer": 655,
+        "Oven": 449,
+        "Air Conditioner": 342,
+        "Food Processor": 229
+      },
+      "category_sum": 109235,
+      "category_sum_matches_total": true,
+      "brand": {
+        "ELECTROLUX": 38617,
+        "ESMALTEC": 24363,
+        "BRASTEMP": 22815,
+        "CONSUL": 14038,
+        "PANASONIC": 7530,
+        "ITATIAIA": 948,
+        "KITCHENAID": 924
+      },
+      "brand_sum": 109235,
+      "brand_sum_matches_total": true,
+      "quality_label": {
+        "Very Good": 58476,
+        "Excellent": 26197,
+        "Good": 21353,
+        "Repackaged": 2507,
+        "New": 556,
+        "Special Condition": 73,
+        "Yellowed / Rusty": 57,
+        "Customized": 16
+      },
+      "quality_label_sum": 109235,
+      "views": {
+        "0": 23962,
+        "1": 23936,
+        "2": 23608,
+        "3": 22876,
+        "4": 10906,
+        "5": 3093,
+        "6": 420,
+        "7": 202,
+        "8": 107,
+        "9": 81,
+        "10": 44
+      }
+    },
+    "brand_nationality_distribution": {
+      "brazilian_domestic": {
+        "brands": [
+          "ESMALTEC",
+          "BRASTEMP",
+          "CONSUL",
+          "ITATIAIA"
+        ],
+        "count": 62164,
+        "percentage": 56.9085,
+        "records_by_brand": {
+          "ESMALTEC": 24363,
+          "BRASTEMP": 22815,
+          "CONSUL": 14038,
+          "ITATIAIA": 948
+        }
+      },
+      "multinational_active_in_vietnam": {
+        "brands": [
+          "ELECTROLUX",
+          "PANASONIC"
+        ],
+        "count": 46147,
+        "percentage": 42.2456,
+        "records_by_brand": {
+          "ELECTROLUX": 38617,
+          "PANASONIC": 7530
+        }
+      },
+      "us_premium_niche": {
+        "brands": [
+          "KITCHENAID"
+        ],
+        "count": 924,
+        "percentage": 0.8459,
+        "records_by_brand": {
+          "KITCHENAID": 924
+        }
+      },
+      "correction_note": "The preliminary audit draft loosely stated that over 70% of records belong to Brazilian brands. Exact verification proves Brazilian domestic brands total 62,164 records (56.91%). Multinational brands active in Vietnam total 46,147 records (42.25%), and KitchenAid totals 924 (0.85%)."
+    },
+    "data_modeling_hierarchy": {
+      "image_level_record": {
+        "total_count": 109235,
+        "concept": "Single photograph taken from a specific viewpoint angle (views 0..10)",
+        "file_path_pattern": "<interaction_id>/<timestamp>.jpg",
+        "distinct_fields": [
+          "path",
+          "file_path",
+          "view",
+          "timestamp",
+          "description_en",
+          "bounding_box"
+        ],
+        "description": "Each row in metadata.csv corresponds to 1 image file on disk."
+      },
+      "interaction_level_product_instance": {
+        "total_count": 23978,
+        "concept": "Unique physical appliance unit during an intake and inspection session",
+        "invariant_fields": [
+          "sku",
+          "brand",
+          "product_type",
+          "quality_label",
+          "voltage",
+          "color",
+          "height",
+          "width",
+          "depth",
+          "weight"
+        ],
+        "mean_records_per_interaction": 4.56,
+        "description": "One physical device instance. All physical and quality properties are invariant across views."
+      },
+      "sku_catalog_model": {
+        "total_count": 334,
+        "concept": "Manufacturer catalog model blueprint/specification",
+        "catalog_fields": [
+          "sku",
+          "department",
+          "product_type",
+          "original_value"
+        ],
+        "mean_interactions_per_sku": 71.79,
+        "description": "Catalog-level product specification template spanning multiple physical appliance units."
+      }
+    },
+    "original_value_stats_brl": {
+      "count": 109235,
+      "missing_count": 0,
+      "missing_pct": 0.0,
+      "zero_count": 308,
+      "mean_brl": 2480.3,
+      "std_brl": 1523.35,
+      "min_brl": 0.0,
+      "p25_brl": 999.0,
+      "median_p50_brl": 2199.0,
+      "p75_brl": 3549.0,
+      "max_brl": 8499.0
+    },
+    "descriptions": {
+      "description_pt": {
+        "present_count": 109235,
+        "unique_count": 542
+      },
+      "description_en": {
+        "present_count": 109235,
+        "unique_count": 8859
+      },
+      "short_description": {
+        "present_count": 109235,
+        "unique_count": 13349
+      }
+    },
+    "sample_image_cross_reference": {
+      "total_metadata_records": 109235,
+      "metadata_records_with_accessible_images": 10212,
+      "metadata_records_without_accessible_images": 99023,
+      "sample_image_coverage_pct": 9.35,
+      "unique_interaction_folders_in_repo": 3171,
+      "metadata_interactions_with_accessible_images": 2295
+    },
+    "physical_product_relationships": {
+      "records_per_interaction": {
+        "mean": 4.56,
+        "std": 0.93,
+        "min": 1,
+        "median": 4.0,
+        "max": 11
+      },
+      "interactions_per_sku": {
+        "mean": 71.79,
+        "std": 79.64,
+        "min": 17,
+        "median": 46.0,
+        "max": 687
+      },
+      "invariance_violations_within_interaction": {
+        "sku": 0,
+        "brand": 0,
+        "product_type": 0,
+        "quality_label": 0,
+        "voltage": 0,
+        "color": 0,
+        "original_value": 1
+      },
+      "conclusion": "Each unique interaction_id represents an individual physical appliance intake session with multiple camera viewpoints (views 0..10). Physical attributes (SKU, brand, category, dimensions, quality grade) remain strictly invariant across views of the same physical unit."
+    }
+  },
+  "data_eligibility_analysis": {
+    "final_decision_matrix": {
+      "clip_image_embedding_extraction": {
+        "task": "CLIP image embedding extraction",
+        "status": "CONFIRMED_SUITABLE",
+        "evidence": "High-resolution real product photography (3000x4000 and 2248x4000), RGB, multiple camera angles (views 0..10), and standardized light workshop background. Highly suitable for zero-shot or feature extraction with standard ViT backbones (ViT-B/16, ViT-L/14) to generate dense visual feature representations.",
+        "action": "CONFIRMED: Proceed with image embedding extraction pipeline for appliance visual representation."
+      },
+      "appliance_category_classification": {
+        "task": "Appliance category classification",
+        "status": "CONFIRMED_SUITABLE",
+        "evidence": "16 clean, well-defined appliance categories (Refrigerator 33.14%, Stove 21.83%, Washing Machine 21.79%, Dishwasher 6.24%, Microwave 5.48%, etc.) with 100% label completeness (0 nulls across 109,235 records). Category sum equals total records (109,235). Well-suited for zero-shot prompt classification or supervised classifiers.",
+        "action": "CONFIRMED: Proceed with appliance category mapping and classifier benchmarking."
+      },
+      "visual_condition_classification": {
+        "task": "Visual condition classification",
+        "status": "REQUIRES_FURTHER_VALIDATION",
+        "evidence": "Severe class imbalance: 97.06% of records belong to the top 3 grades (Very Good 53.53%, Excellent 23.98%, Good 19.55%). Severe damage categories represent less than 0.13% combined (Yellowed/Rusty 0.05%, Special Condition 0.07%, Customized 0.01%). Furthermore, condition grades originate from Brazilian commercial remanufacturing intake inspectors, which may not align with consumer-perceived condition or Vietnamese second-hand platform buyer expectations (e.g. 99%, 95%, like-new). Defect bounding box generalizability across consumer photo qualities remains unverified.",
+        "action": "REQUIRES FURTHER VALIDATION: Do NOT assume confirmed suitability. Requires empirical zero-shot CLIP prompt evaluation and defect validation before deployment."
+      },
+      "vietnamese_second_hand_price_regression": {
+        "task": "Vietnamese second-hand price regression",
+        "status": "CONFIRMED_UNSUITABLE_PROHIBITED",
+        "evidence": "original_value is historical retail MSRP in Brazilian Real (BRL) from 2022, NOT a second-hand listing price, and NOT in VND. No currency conversion formula can bridge the structural gap between Brazilian retail prices and Vietnamese second-hand market dynamics. Critical price-driving features in Vietnam (compressor/motor health, gas leaks, inverter board status, usage years, local logistics) are completely missing. Direct price regression on this dataset is prohibited by project policy.",
+        "action": "PROHIBITED: Never use original_value as listing_price_vnd. Do not train regression models on this field."
+      }
+    },
+    "suitability_summary": {
+      "confirmed_suitable": [
+        "CLIP image embedding extraction",
+        "Appliance category classification"
+      ],
+      "requires_further_validation": [
+        "Visual condition classification"
+      ],
+      "confirmed_unsuitable_prohibited": [
+        "Vietnamese second-hand price regression"
+      ]
+    },
+    "use_case_evaluations": {
+      "category_classification": {
+        "fields": [
+          "product_type",
+          "department"
+        ],
+        "status": "ELIGIBLE",
+        "rationale": "The dataset provides 16 clean appliance categories (Refrigerator, Stove, Washing Machine, Dishwasher, etc.) with 100% completion. Highly suitable for training/evaluating appliance type classifiers and hierarchical taxonomy classifiers."
+      },
+      "product_identification": {
+        "fields": [
+          "sku",
+          "brand",
+          "height",
+          "width",
+          "depth",
+          "voltage"
+        ],
+        "status": "PARTIALLY_ELIGIBLE",
+        "rationale": "SKU, dimensions, and voltage offer fine-grained catalog identity. However, brands are 56.91% Brazilian regional brands (Esmaltec 22.30%, Brastemp 20.89%, Consul 12.85%, Itatiaia 0.87%) which have negligible presence in Vietnam. Dimensions and appliance form factors remain transferable."
+      },
+      "appliance_condition_analysis": {
+        "fields": [
+          "quality_label",
+          "bounding_box"
+        ],
+        "status": "REQUIRES_FURTHER_VALIDATION",
+        "rationale": "Features 8 remanufacturing grades and bounding box defect coordinates. However, 97.06% of records are clustered in top 3 grades (Very Good, Excellent, Good), and inspection standards reflect factory remanufacturing rather than Vietnamese consumer second-hand marketplace dynamics. Requires empirical validation."
+      },
+      "image_text_representation_learning": {
+        "fields": [
+          "description_en",
+          "description_pt",
+          "path",
+          "view"
+        ],
+        "status": "ELIGIBLE_FOR_CROSS_MODAL_PRETRAINING",
+        "rationale": "Accessible multi-angle images paired with English descriptive captions (8,859 unique) and Portuguese catalog descriptions are suitable for vision-language pretraining (CLIP, SigLIP). Not directly usable for Vietnamese PhoBERT fine-tuning without translation or domain adaptation."
+      },
+      "price_regression": {
+        "fields": [
+          "original_value"
+        ],
+        "status": "INELIGIBLE_FOR_TARGET_PRICE",
+        "warning": "DO NOT USE original_value AS listing_price_vnd OR DIRECT TARGET VARIABLE",
+        "rationale": "original_value is the historical new retail MSRP in Brazilian Real (BRL), NOT a second-hand listing price, and NOT in Vietnamese Dong (VND). It does not reflect Vietnamese market dynamics, depreciation curves, or local currency purchasing power parity. It may only serve as an auxiliary uncalibrated MSRP baseline in advanced transfer learning experiments."
+      }
+    },
+    "missing_vietnamese_market_information": [
+      {
+        "factor": "Target Currency and Listing Price (VND)",
+        "detail": "No Vietnamese Dong prices. Used-appliance resale pricing in Vietnam requires actual listings and settled transactions in VND."
+      },
+      {
+        "factor": "Vietnamese Used-Appliance Brands",
+        "detail": "Vietnam market is dominated by Panasonic, Toshiba, Aqua, LG, Samsung, Daikin, Casper, Sharp, and Electrolux. Brazilian brands (Esmaltec, Brastemp, Consul, Itatiaia) are absent."
+      },
+      {
+        "factor": "Local Electrical Infrastructure",
+        "detail": "Vietnam operates strictly on 220V 50Hz (Type A/C plugs). Brazil uses 110V/127V and 220V 60Hz. Voltage mismatch invalidates direct electrical utility."
+      },
+      {
+        "factor": "Vietnamese Textual Listings (PhoBERT requirement)",
+        "detail": "Vietnamese buyer/seller communication involves colloquial phrases (máy giặt cũ, tủ lạnh inverter, thanh lý, zin nguyên bản). TudoBonus has only Portuguese and English."
+      },
+      {
+        "factor": "Operational / Mechanical Health Status",
+        "detail": "Listing price in Vietnam depends heavily on motor/compressor health, gas leakage, inverter board integrity, repair history, and remaining warranty, which are missing from cosmetic inspection records."
+      },
+      {
+        "factor": "Geographic and Logistics Context in Vietnam",
+        "detail": "Pricing in Vietnam varies significantly between Hanoi, Ho Chi Minh City, Da Nang, and provincial areas due to heavy appliance delivery costs and local availability."
+      },
+      {
+        "factor": "Usage Age and Wear Lifespan",
+        "detail": "Actual operational years of service, manufacturing year, and seller usage intensity are not recorded."
+      }
+    ],
+    "clip_model_evaluation": {
+      "experimentation_readiness": "ELIGIBLE",
+      "verdict_vietnamese": "ĐỦ ĐIỀU KIỆN ĐỂ BẮT ĐẦU THỬ NGHIỆM CLIP (VISION-LANGUAGE)",
+      "supported_aspects": [
+        "Visual Feature Extraction: Backbone ViT (ViT-B/16, ViT-L/14) trích xuất đặc trưng ngoại quan, nhận diện trầy xước/ố vàng.",
+        "Zero-shot Appliance Classification: Phân loại 16 danh mục đồ gia dụng (Refrigerator, Washing Machine, Microwave...) bằng text prompt.",
+        "Zero-shot Condition Grading (Cần thẩm định thêm): Đánh giá độ mới/hao mòn ngoại quan theo 8 nhãn chất lượng (Very Good, Excellent, Good, Repackaged...).",
+        "Multi-view Visual Aggregation: Tích hợp 4-5 góc chụp (views 0..4) để tạo visual embedding tổng thể cho một thực thể thiết bị.",
+        "Cross-modal Retrieval: Tìm kiếm tương đồng văn bản - hình ảnh trong catalog đồ gia dụng."
+      ],
+      "unsupported_missing_for_vietnamese_pricing": [
+        "Giá bán thực tế VND: original_value là giá bán lẻ mới BRL năm 2022, không phải giá bán đồ cũ VND.",
+        "Văn bản tiếng Việt cho PhoBERT: Dataset chỉ có tiếng Bồ Đào Nha và tiếng Anh, thiếu hoàn toàn ngôn từ đồ cũ Việt Nam.",
+        "Hệ thống thương hiệu Việt Nam: 56.91% là thương hiệu nội địa Brazil (Esmaltec, Brastemp, Consul, Itatiaia), thiếu Toshiba, Aqua, LG, Samsung...",
+        "Tiêu chuẩn điện áp: Brazil dùng 127V/220V 60Hz, Việt Nam dùng chuẩn 220V 50Hz.",
+        "Tình trạng vận hành cơ khí bên trong: Thiếu dữ liệu block lốc, gas lạnh, bo mạch inverter, lịch sử sửa chữa.",
+        "Yếu tố địa lý và chi phí vận chuyển cồng kềnh giữa các tỉnh thành tại Việt Nam."
+      ],
+      "strategic_guidance": "TudoBonus hoàn toàn đủ điều kiện làm dữ liệu benchmark và pre-training cho nhánh CLIP Visual Encoder. TUYỆT ĐỐI KHÔNG dùng TudoBonus để hồi quy trực tiếp giá bán listing_price_vnd."
+    },
+    "dataset_constraints_and_licensing": {
+      "license": "Creative Commons Attribution 4.0 International (CC BY 4.0)",
+      "attribution_requirement": "Proper attribution to TudoBonus authors (NeurIPS 2026 submission).",
+      "geographic_bias": "Brazilian circular economy / remanufacturing ecosystem.",
+      "brand_bias": "Electrolux represents 35.35% of records; Brazilian domestic brands account for 56.91%.",
+      "sample_release_constraint": "Only 10,212 out of 109,235 metadata records currently have corresponding images hosted in Hugging Face (sample release)."
+    }
+  }
+}

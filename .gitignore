@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+*.pem
+
+# Large datasets and generated files
+data/raw/
+data/clip_sample/
+data/embeddings/
+data/processed/
+data/private/
+
+# Temporary files
+scratch/
+
+# Model weights
+*.pt
+*.pth
+*.ckpt
+*.safetensors
